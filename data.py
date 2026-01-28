@@ -7,7 +7,6 @@ os.makedirs('data', exist_ok=True)
 categories = ['billing', 'technical', 'account', 'feature_request']
 urgencies = ['low', 'medium', 'high']
 
-# MORE templates per category
 ticket_templates = {
     'billing': [
         "I was charged twice for my subscription",
@@ -85,14 +84,13 @@ suffixes = ["", " please help", " urgently", " ASAP", " thanks", " any update?",
 
 tickets = []
 
-# Generate 10,000 tickets with MORE variations
+# Generate 10,000 tickets
 for _ in range(10000):
     category = random.choice(categories)
     template = random.choice(ticket_templates[category])
     prefix = random.choice(prefixes)
     suffix = random.choice(suffixes)
     
-    # Combine for unique variations
     text = prefix + template + suffix
     text = text.strip()
     
@@ -112,8 +110,8 @@ for _ in range(10000):
 df = pd.DataFrame(tickets)
 df.to_csv('data/tickets.csv', index=False)
 
-print(f"✓ Generated {len(df)} support tickets")
-print(f"✓ Saved to data/tickets.csv")
+print(f"Generated {len(df)} support tickets")
+print(f"Saved to data/tickets.csv")
 print(f"\nCategory distribution:")
 print(df['category'].value_counts())
 print(f"\nUnique tickets: {df['text'].nunique()}")
