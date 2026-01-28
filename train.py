@@ -2,7 +2,6 @@ import mlflow
 import mlflow.sklearn
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
-from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from etl_pipeline import run_etl
@@ -15,7 +14,6 @@ def train_and_evaluate_models():
     print("TRAINING ML MODELS")
     print("="*50 + "\n")
     
-    # Run ETL pipeline
     df, X, vectorizer = run_etl()
     y = df['category']
     X_train, X_test, y_train, y_test = train_test_split(
@@ -25,7 +23,7 @@ def train_and_evaluate_models():
     print(f"Training set: {X_train.shape[0]} samples")
     print(f"Test set: {X_test.shape[0]} samples\n")
     
-    # Defining 3 models for now to compare
+    # 2 models for now to compare
     models = {
         'RandomForest': RandomForestClassifier(n_estimators=100, random_state=42),
         'LogisticRegression': LogisticRegression(max_iter=1000, random_state=42)
@@ -48,8 +46,7 @@ def train_and_evaluate_models():
             y_pred = model.predict(X_test)
             #evaluate
             accuracy = accuracy_score(y_test, y_pred)
-          
-            # Log in MLflow
+            # Log in to MLflow
             mlflow.log_param("model_type", name)
             mlflow.log_param("n_train", X_train.shape[0])
             mlflow.log_param("n_test", X_test.shape[0])
