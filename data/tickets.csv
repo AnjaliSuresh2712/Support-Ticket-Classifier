@@ -1,0 +1,151 @@
+id,text,category,urgency
+0,Features are not loading properly,technical,low
+1,The app keeps crashing on startup,technical,high
+2,Please add two-factor authentication,feature_request,medium
+3,How do I delete my account,account,medium
+4,I need to update my email address,account,high
+5,Please add two-factor authentication,feature_request,medium
+6,Can you add dark mode,feature_request,high
+7,I can't log into my account,technical,medium
+8,My account was locked,account,medium
+9,The pricing doesn't match what I was quoted,billing,medium
+10,Integration with Slack would be helpful,feature_request,high
+11,How do I delete my account,account,high
+12,Integration with Slack would be helpful,feature_request,low
+13,I can't log into my account,technical,medium
+14,The app keeps crashing on startup,technical,low
+15,My credit card was declined but I have funds,billing,medium
+16,I forgot my password,account,high
+17,I forgot my password,account,low
+18,I need to update my email address,account,high
+19,I was charged twice for my subscription,billing,high
+20,Please add two-factor authentication,feature_request,low
+21,The app keeps crashing on startup,technical,high
+22,Features are not loading properly,technical,low
+23,My credit card was declined but I have funds,billing,high
+24,The pricing doesn't match what I was quoted,billing,high
+25,I need a refund for last month,billing,high
+26,Getting error code 500 when I try to save,technical,high
+27,I'd like to export my data as CSV,feature_request,low
+28,My account was locked,account,high
+29,I forgot my password,account,low
+30,I need a refund for last month,billing,high
+31,Getting error code 500 when I try to save,technical,medium
+32,Please add two-factor authentication,feature_request,medium
+33,My account was locked,account,medium
+34,I need to update my email address,account,medium
+35,The app keeps crashing on startup,technical,medium
+36,I need to update my email address,account,low
+37,I need to update my email address,account,medium
+38,Integration with Slack would be helpful,feature_request,high
+39,I was charged twice for my subscription,billing,low
+40,Integration with Slack would be helpful,feature_request,low
+41,How do I delete my account,account,high
+42,My account was locked,account,medium
+43,Can you add dark mode,feature_request,high
+44,I need to update my email address,account,high
+45,The app keeps crashing on startup,technical,low
+46,I forgot my password,account,low
+47,My credit card was declined but I have funds,billing,high
+48,My credit card was declined but I have funds,billing,low
+49,Features are not loading properly,technical,medium
+50,Features are not loading properly,technical,high
+51,My account was locked,account,low
+52,I need to update my email address,account,low
+53,I was charged twice for my subscription,billing,medium
+54,My account was locked,account,high
+55,I'd like to export my data as CSV,feature_request,low
+56,I can't log into my account,technical,medium
+57,I'd like to export my data as CSV,feature_request,high
+58,Please add two-factor authentication,feature_request,high
+59,I was charged twice for my subscription,billing,low
+60,Getting error code 500 when I try to save,technical,medium
+61,Integration with Slack would be helpful,feature_request,low
+62,My credit card was declined but I have funds,billing,low
+63,I can't log into my account,technical,high
+64,Getting error code 500 when I try to save,technical,medium
+65,Getting error code 500 when I try to save,technical,medium
+66,Please add two-factor authentication,feature_request,high
+67,I'd like to export my data as CSV,feature_request,medium
+68,I was charged twice for my subscription,billing,high
+69,I was charged twice for my subscription,billing,high
+70,Getting error code 500 when I try to save,technical,high
+71,My account was locked,account,high
+72,I forgot my password,account,high
+73,My credit card was declined but I have funds,billing,medium
+74,My account was locked,account,medium
+75,Features are not loading properly,technical,low
+76,Getting error code 500 when I try to save,technical,high
+77,I'd like to export my data as CSV,feature_request,low
+78,Please add two-factor authentication,feature_request,low
+79,How do I delete my account,account,high
+80,I forgot my password,account,medium
+81,My credit card was declined but I have funds,billing,low
+82,I need to update my email address,account,medium
+83,Integration with Slack would be helpful,feature_request,medium
+84,I was charged twice for my subscription,billing,medium
+85,Integration with Slack would be helpful,feature_request,high
+86,Please add two-factor authentication,feature_request,medium
+87,I need a refund for last month,billing,low
+88,I need to update my email address,account,high
+89,Getting error code 500 when I try to save,technical,low
+90,The pricing doesn't match what I was quoted,billing,high
+91,Features are not loading properly,technical,medium
+92,I need a refund for last month,billing,low
+93,The pricing doesn't match what I was quoted,billing,low
+94,How do I delete my account,account,high
+95,My account was locked,account,low
+96,My credit card was declined but I have funds,billing,low
+97,Features are not loading properly,technical,medium
+98,My credit card was declined but I have funds,billing,high
+99,My account was locked,account,high
+100,I forgot my password,account,low
+101,The pricing doesn't match what I was quoted,billing,low
+102,I'd like to export my data as CSV,feature_request,high
+103,Can you add dark mode,feature_request,high
+104,I was charged twice for my subscription,billing,low
+105,Integration with Slack would be helpful,feature_request,high
+106,Getting error code 500 when I try to save,technical,high
+107,I was charged twice for my subscription,billing,medium
+108,The app keeps crashing on startup,technical,low
+109,My account was locked,account,medium
+110,My credit card was declined but I have funds,billing,low
+111,Can you add dark mode,feature_request,high
+112,I'd like to export my data as CSV,feature_request,low
+113,I'd like to export my data as CSV,feature_request,medium
+114,Features are not loading properly,technical,medium
+115,Getting error code 500 when I try to save,technical,low
+116,Features are not loading properly,technical,low
+117,My credit card was declined but I have funds,billing,medium
+118,The app keeps crashing on startup,technical,low
+119,I was charged twice for my subscription,billing,medium
+120,How do I delete my account,account,high
+121,The app keeps crashing on startup,technical,medium
+122,My credit card was declined but I have funds,billing,high
+123,Please add two-factor authentication,feature_request,low
+124,I forgot my password,account,medium
+125,I forgot my password,account,high
+126,My account was locked,account,low
+127,I need to update my email address,account,medium
+128,I can't log into my account,technical,low
+129,How do I delete my account,account,low
+130,The pricing doesn't match what I was quoted,billing,medium
+131,Integration with Slack would be helpful,feature_request,high
+132,My account was locked,account,high
+133,Features are not loading properly,technical,high
+134,I need to update my email address,account,medium
+135,My credit card was declined but I have funds,billing,high
+136,Can you add dark mode,feature_request,high
+137,I can't log into my account,technical,medium
+138,My account was locked,account,high
+139,The pricing doesn't match what I was quoted,billing,medium
+140,Can you add dark mode,feature_request,high
+141,I need a refund for last month,billing,high
+142,My credit card was declined but I have funds,billing,low
+143,How do I delete my account,account,high
+144,Can you add dark mode,feature_request,medium
+145,How do I delete my account,account,high
+146,Integration with Slack would be helpful,feature_request,low
+147,My credit card was declined but I have funds,billing,medium
+148,Integration with Slack would be helpful,feature_request,low
+149,I can't log into my account,technical,low

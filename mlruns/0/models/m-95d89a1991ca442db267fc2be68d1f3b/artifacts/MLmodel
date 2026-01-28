@@ -1,0 +1,22 @@
+artifact_path: /Users/anjalisuresh/Downloads/Support-Ticket-Classifier-main/mlruns/0/models/m-95d89a1991ca442db267fc2be68d1f3b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.1
+model_id: m-95d89a1991ca442db267fc2be68d1f3b
+model_size_bytes: 146111
+model_uuid: m-95d89a1991ca442db267fc2be68d1f3b
+prompts: null
+run_id: e7e353090f3c48699e841ff02fc248c2
+utc_time_created: '2026-01-27 22:57:38.345079'
